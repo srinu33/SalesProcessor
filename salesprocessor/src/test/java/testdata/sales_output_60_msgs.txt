@@ -1,0 +1,73 @@
+2019-05-20 16:22:36.266  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 10
+2019-05-20 16:22:36.279  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.280  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   1 		5.0
+2019-05-20 16:22:36.280  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   1 		4.0
+2019-05-20 16:22:36.281  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   4 		16.0
+2019-05-20 16:22:36.281  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   1 		7.0
+2019-05-20 16:22:36.281  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   3 		6.0
+2019-05-20 16:22:36.281  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   3 		15.0
+2019-05-20 16:22:36.281  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.311  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 20
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   2 		10.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   5 		20.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   7 		28.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   5 		35.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   6 		12.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   7 		35.0
+2019-05-20 16:22:36.312  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.328  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 30
+2019-05-20 16:22:36.329  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.329  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   5 		25.0
+2019-05-20 16:22:36.329  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   6 		24.0
+2019-05-20 16:22:36.329  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   10 		40.0
+2019-05-20 16:22:36.329  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   8 		56.0
+2019-05-20 16:22:36.330  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   13 		26.0
+2019-05-20 16:22:36.330  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   11 		55.0
+2019-05-20 16:22:36.330  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.352  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 40
+2019-05-20 16:22:36.352  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   9 		45.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   12 		48.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   12 		36.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   8 		112.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   21 		42.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   12 		60.0
+2019-05-20 16:22:36.353  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.370  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 50
+2019-05-20 16:22:36.371  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.371  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   13 		78.0
+2019-05-20 16:22:36.372  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   18 		72.0
+2019-05-20 16:22:36.372  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   12 		36.0
+2019-05-20 16:22:36.372  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   8 		112.0
+2019-05-20 16:22:36.372  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   29 		29.0
+2019-05-20 16:22:36.372  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   14 		70.0
+2019-05-20 16:22:36.373  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.374  INFO 59535 --- [       Thread-6] c.j.s.listener.SalesListener             : Sales Listener is Paused.
+2019-05-20 16:22:36.375  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : Adjustments Report:  Item  -  Adjustment - Adjust Value
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : MILK  ADD  1.0
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : APPLE  MUL  2.0
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : BANANA  SUB  1.0
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : POTATO  SUB  1.0
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO  ADD  1.0
+2019-05-20 16:22:36.377  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : Final Prices Report after applying Adjustments: 
+2019-05-20 16:22:36.381  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO 6.0
+2019-05-20 16:22:36.381  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : BREAD 4.0
+2019-05-20 16:22:36.382  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : BANANA 3.0
+2019-05-20 16:22:36.382  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : APPLE 14.00
+2019-05-20 16:22:36.382  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : POTATO 1.0
+2019-05-20 16:22:36.382  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : CARROT 5.0
+2019-05-20 16:22:36.382  INFO 59535 --- [       Thread-7] c.j.s.s.impl.SalesReportServiceImpl      : MILK 4.0
+2019-05-20 16:22:36.401  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : Sales Report: (After every 10 msgs) - Total Msgs -> 60
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      :  Item     Quantity       Total Amount  
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : TOMATO	   13 		78.0
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BREAD	   20 		80.0
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : ONION	   2 		1.6
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : BANANA	   12 		36.0
+2019-05-20 16:22:36.402  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : APPLE	   8 		112.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : POTATO	   29 		29.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : COFFE	   4 		6.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : CARROT	   16 		80.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : MILK	   4 		16.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : EGG	   10 		10.0
+2019-05-20 16:22:36.403  INFO 59535 --- [enerContainer-1] c.j.s.s.impl.SalesReportServiceImpl      : KIWI	   6 		3.0

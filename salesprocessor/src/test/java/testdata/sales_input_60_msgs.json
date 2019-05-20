@@ -1,0 +1,312 @@
+{
+  "sales": [
+   
+    {
+      "type": "APPLE",
+      "price": "7.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "MILK",
+      "price": "3.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "3"
+    },
+    {
+      "type": "MILK",
+      "price": "3.0",
+      "quantity": "3"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "3"
+    },
+    {
+      "type": "MILK",
+      "adjustment": "true",
+      "adjustValue": "1.0",
+      "adjustType": "ADD"
+    },
+    
+    {
+      "type": "APPLE",
+      "price": "7.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "3"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "3"
+    },
+    {
+      "type": "APPLE",
+      "price": "7.0",
+      "quantity": "3"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "2"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "4"
+    },
+       {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "3"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "1"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "3"
+    },
+    {
+      "type": "APPLE",
+      "price": "7.0",
+      "quantity": "3"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "2"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "4"
+    },
+    {
+      "type": "APPLE",
+      "adjustment": "true",
+      "adjustValue": "2.0",
+      "adjustType": "MUL"
+    },
+    {
+      "type": "BANANA",
+      "price": "4.0",
+      "quantity": "2"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "4"
+    },
+     {
+      "type": "BANANA",
+      "adjustment": "true",
+      "adjustValue": "1.0",
+      "adjustType": "SUB"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "4"
+    },
+        {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "1"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "3"
+    },
+    {
+      "type": "TOMATO",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "POTATO",
+      "price": "2.0",
+      "quantity": "4"
+    },
+      {
+      "type": "POTATO",
+      "adjustment": "true",
+      "adjustValue": "1.0",
+      "adjustType": "SUB"
+    },
+      {
+      "type": "TOMATO",
+      "adjustment": "true",
+      "adjustValue": "1.0",
+      "adjustType": "ADD"
+    },
+    {
+      "type": "BREAD",
+      "price": "4.0",
+      "quantity": "2"
+    },
+    {
+      "type": "KIWI",
+      "price": "0.50",
+      "quantity": "2"
+    },
+    {
+      "type": "EGG",
+      "price": "1.0",
+      "quantity": "6"
+    },
+    {
+      "type": "COFFE",
+      "price": "1.5",
+      "quantity": "1"
+    },
+    {
+      "type": "ONION",
+      "price": "0.80",
+      "quantity": "2"
+    },
+    {
+      "type": "COFFE",
+      "price": "1.5",
+      "quantity": "2"
+    },
+    {
+      "type": "CARROT",
+      "price": "5.0",
+      "quantity": "2"
+    },
+    {
+      "type": "KIWI",
+      "price": "0.50",
+      "quantity": "4"
+    },
+    {
+      "type": "EGG",
+      "price": "1.0",
+      "quantity": "4"
+    },
+    {
+      "type": "COFFE",
+      "price": "1.5",
+      "quantity": "1"
+    }
+   
+  ]
+}
