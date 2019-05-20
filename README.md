@@ -12,6 +12,6 @@ Steps to setup the project
 Steps to Test the service:
 
 1) Use any REST client to post a request.
-2)Request POST --  http://localhost:8080/sales
+2) Request POST --  http://localhost:8080/sales
 3) please use one of the inut json provided in 'testdata' folder.
 3) You can see the generated report in the console.
