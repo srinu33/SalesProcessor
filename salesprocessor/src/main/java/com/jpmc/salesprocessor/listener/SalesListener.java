@@ -3,11 +3,14 @@ package com.jpmc.salesprocessor.listener;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jms.Queue;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.annotation.JmsListener;
+import org.springframework.jms.config.JmsListenerEndpointRegistry;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
 
@@ -44,6 +47,10 @@ public class SalesListener {
 	@Value("${report.adjustment.count}")
 	private Integer ADJUSTMENT_REPORT_COUNT;
 	
+	@Autowired
+	JmsListenerEndpointRegistry endpointRegistry;
+
+	
 	@JmsListener(destination = JMSConfig.SALES_NOTIFICATION_QUEUE)
 	public void consume(Sale sale) {
 		sales.add(sale);
@@ -59,8 +66,11 @@ public class SalesListener {
 		}
 		//Every 50 messages list all adjustments and final prices
 		if(sales.size() % ADJUSTMENT_REPORT_COUNT == 0) {
-			log.info("Sales Listener is Paused.");
+			log.info("Sales listener is Paused while generatin adjustment report");
+			pauseListener();
 			generateAdjustmentReports(sales);
+			log.info("Report generation completd, so statring Listener");
+			startListener();
 		}
 		
 	}
@@ -73,5 +83,27 @@ public class SalesListener {
 		salesReportService.generateAdjustmentsReport(salesList);
 		salesReportService.generateFinalPriceSAfterAdjustments(salesList);
 		
+	}
+	
+	/**
+	 * Method to stop the Listener while report is getting generated
+	 */
+	public void pauseListener() {
+	        endpointRegistry.getListenerContainers().forEach((container) -> {
+	            if (container.isRunning()) {
+	                container.stop();
+	            }
+	        });
+	}
+
+	/**
+	 * Method to start the Listener once report generated finished
+	 */
+	public void startListener() {
+	        endpointRegistry.getListenerContainers().forEach((container) -> {
+	            if (!container.isRunning()) {
+	                container.start();
+	            }
+	        });
 	}
 }
